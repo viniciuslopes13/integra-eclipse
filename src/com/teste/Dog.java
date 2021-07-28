@@ -14,6 +14,10 @@ public class Dog {
 		this.dataNascimento = dataNascimento;
 	}
 	
+	public Dog(String nome) {
+		this.nome = nome;
+	}
+	
 	public String getNome() {
 		return nome;
 	}
