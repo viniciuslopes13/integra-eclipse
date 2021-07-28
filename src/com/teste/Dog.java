@@ -9,6 +9,11 @@ public class Dog {
 		super();
 	}
 	
+	public Dog(String nome, String dataNascimento) {
+		this.nome = nome;
+		this.dataNascimento = dataNascimento;
+	}
+	
 	public String getNome() {
 		return nome;
 	}
